@@ -7,7 +7,7 @@ from email import encoders
 
 def send_mail(reciver,subject,body,attachment=None):
     sender='tangwulinggd@gmail.com'
-    password='mwkp lpak bosv zyat'
+    password='######'
 
     #message body and server
     message=MIMEMultipart()
