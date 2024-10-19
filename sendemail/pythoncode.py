@@ -6,7 +6,7 @@ from email.mime.base import MIMEBase
 from email import encoders
 
 def send_mail(reciver,subject,body,attachment=None):
-    sender='tangwulinggd@gmail.com'
+    sender='tangwulin###@gmail.com'
     password='######'
 
     #message body and server
@@ -35,7 +35,7 @@ def send_mail(reciver,subject,body,attachment=None):
         print('email sent to reciver')
 
 
-reciver='20211a0264@bvrit.ac.in'
+reciver='20211a02##@bvrit.ac.in'
 subject='Day 2 automation with attachment'
 body='am sending an attachment'
 attachment=r'..\DeclarationFinance (1) (1).pdf'
